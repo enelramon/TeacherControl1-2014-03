@@ -117,38 +117,24 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="images" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\images.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="1411227911_delete-icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\1411227911_delete-icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="agregar-nuevo-documento-de-archivo-mas-icono-6249-16" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\agregar-nuevo-documento-de-archivo-mas-icono-6249-16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="agregar-nuevo-documento-de-archivo-mas-icono-6249-32" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\agregar-nuevo-documento-de-archivo-mas-icono-6249-32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="1411229203_find-magnifying glass-search-icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\1411229203_find-magnifying glass-search-icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="actualizacion" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\actualizacion.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="actualizar" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\actualizar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Buscar" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Buscar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Eliminar" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Eliminar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Guardar" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Guardar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Nuevo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Nuevo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="Nuevobutton.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAABGdBTUEAALGPC/xhBQAAAyxJREFUWEft
+        mEvIVVUYhv/MW14QQ81QxAsaNkjIe9BEMExFRCEviCGiJlhJoiCKVxqICSo1UxIMTFAnTgQHog4CcSYK
+        gjMhGiVeClHTnkfXgsXm7P9f++x9cPK/8PCds85hn/d8e61vfWt39arD+gD2wOewFHbBpDD2GWyArTAV
+        9sHH4f0mmAt7YTzshFXQiN6F0/AtHIEBMBq+Ca9/gf4wE+bAIDgJ/eBL+AiGweEw5nXehxFwFH6HWvLH
+        n4IZWgKP4DjchL9hPbyEefAX3ID9YWw6PIHf4Cw8C2P/wRewGP6BWooGozbDJ+Dt2wJ+fgDM3CJYCENB
+        k2ZsLWhqHOwA74i32O8o/3AtFQ1G+eNNKDW4Gv6AFfCOAzkqM+jkb0KpwcvwGF7BDw7kqGhwFLhIdofY
+        LlHR4HawKjh3nTLnIUtlGfw+xLrSoOXLhfcv3INfIVtFg8thJZwKsV28rtLgVfDWurqPgSUrW2UZtJ41
+        IQ065yKXwGI+BrJUNOgO8DVY24zt4nWtBNbJ1OChMHYOslSWwSbmoJXARZEa9P0acJfKUtGghVpzF0Ks
+        whSIGgwPITXm79yCPpCtsgx+F2K7coqkmXPR3YXZUElFgz/Bz3A9xCrMADUBUnPOua/gClRWWQbbXcVu
+        YW5nRYMPIO7PlVQ0aENgL3gixBzMnMbErsd6lxqcBrOgLRUNuroGwrYQc4iNhQb/hGjMhSG1VDTov/0U
+        bECNOTjnlPttmrlr4A5SS0WDlochYLdh7I6+EDUcvE409wLsttNupi0VDXoGmQwHQ+wOJ33s62wA0uzF
+        Vr9xg1XaLeefGgvPIc1ezG7jBqPcGXJ1G9LspUW+cYM57ZaHoXhrP4R0v70P6XGhYxnMLdQ/QtxzvbXz
+        IVXjBnParWUQM3gGPMldhI0OFPRW52A82Hs8XedAC3XMoJt7T3L1esBf8Ppda3XMYI4s6j21T40ZbLVT
+        NIELqJYsCXfA42CnqC2fWvnwqFPUkuXCh0Wdkt1RbU0Msar8c++9eVkqm4/aGhliqpxjoQZ9WOlCK1Or
+        a1dWqyykvV53cpH53bKjZE8Z7lWD6ur6H8jsAYCDW57PAAAAAElFTkSuQmCC
+</value>
   </data>
 </root>

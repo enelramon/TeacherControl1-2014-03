@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Web;
+using System.Text;
 using System.Data.SqlClient;
 using System.Data;
 
@@ -9,12 +9,16 @@ namespace DAL
 {
     public class Conexion
     {
-        SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\v11.0;AttachDbFilename=|DataDirectory|\Data\TeacherControlDB.mdf;Integrated Security=True");
+
+
+        SqlConnection sqlConexion = new SqlConnection(@"Data Source=(LocalDB)\v11.0;AttachDbFilename=|DataDirectory|\Data\TeacherControlDB.mdf;Integrated Security=True");
         /// <summary>
         /// para ejecutar todos los codigos
         /// </summary>
         /// <param name="Codigo"></param>
         /// <returns></returns>
+        /// 
+
         public bool EjecutarDB(string Codigo)
         {
             bool mensaje = false;
@@ -22,9 +26,9 @@ namespace DAL
 
             try
             {
-                con.Open(); // abrimos la conexion
-                
-                cmd.Connection = con; //asignamos la conexion
+                sqlConexion.Open(); // abrimos la conexion
+
+                cmd.Connection = sqlConexion; //asignamos la conexion
                 cmd.CommandText = Codigo;     //asignamos el comando
                 cmd.ExecuteNonQuery(); // ejecutamos el comando
 
@@ -36,8 +40,8 @@ namespace DAL
             finally
             {
                 mensaje = true;
-                con.Close(); //cerramos la conexion
-                // MessageBox.Show("Conexion cerrada");
+                sqlConexion.Close(); //cerramos la conexion
+
 
             }
             return mensaje;
@@ -54,8 +58,8 @@ namespace DAL
             DataTable dt = new DataTable();
             try
             {
-                con.Open(); // abrimos la conexion
-                adp = new SqlDataAdapter(comando, con);
+                sqlConexion.Open(); // abrimos la conexion
+                adp = new SqlDataAdapter(comando, sqlConexion);
 
                 adp.Fill(dt);
             }
@@ -66,13 +70,13 @@ namespace DAL
             }
             finally
             {
-                con.Close(); //cerramos la conexion
+                sqlConexion.Close(); //cerramos la conexion
 
             }
             return dt;
         }
-    
 
       
+       
     }
 }

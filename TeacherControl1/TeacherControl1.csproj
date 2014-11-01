@@ -7,7 +7,7 @@
     <ProjectGuid>{B41DB596-D4BA-4EEB-8F3A-B8823FAB64EF}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>DAL</RootNamespace>
+    <RootNamespace>TeacherControl1</RootNamespace>
     <AssemblyName>RegistroEstudiantes</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
@@ -60,16 +60,58 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="rEstudiantes.cs">
+    <Compile Include="Consultas\cDeudas.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="rEstudiantes.Designer.cs">
-      <DependentUpon>rEstudiantes.cs</DependentUpon>
+    <Compile Include="Consultas\cDeudas.Designer.cs">
+      <DependentUpon>cDeudas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Registros\BusquedaEstudiantes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registros\BusquedaEstudiantes.Designer.cs">
+      <DependentUpon>BusquedaEstudiantes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Registros\rDeudas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registros\rDeudas.designer.cs">
+      <DependentUpon>rDeudas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Registros\rEstudiante.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registros\rEstudiante.designer.cs">
+      <DependentUpon>rEstudiante.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="rEstudiantes.resx">
-      <DependentUpon>rEstudiantes.cs</DependentUpon>
+    <Compile Include="Registros\rPagosDeudas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registros\rPagos.designer.cs">
+      <DependentUpon>rPagosDeudas.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Consultas\cDeudas.resx">
+      <DependentUpon>cDeudas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registros\BusquedaEstudiantes.resx">
+      <DependentUpon>BusquedaEstudiantes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registros\rDeudas.resx">
+      <DependentUpon>rDeudas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registros\rEstudiante.resx">
+      <DependentUpon>rEstudiante.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -81,6 +123,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="Registros\rPagos.resx">
+      <DependentUpon>rPagosDeudas.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="app.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -116,6 +161,12 @@
       <DependentUpon>TeacherControlDB.mdf</DependentUpon>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <None Include="Resources\Nuevo.png" />
+    <None Include="Resources\Guardar.png" />
+    <None Include="Resources\Eliminar.png" />
+    <None Include="Resources\Buscar.png" />
+    <None Include="Resources\actualizar.png" />
+    <None Include="Resources\actualizacion.png" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.0">

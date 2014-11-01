@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Windows.Forms;
 
-namespace DAL
+namespace TeacherControl1
 {
     static class Program
     {
@@ -15,7 +15,7 @@ namespace DAL
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new rEstudiantes());
+            Application.Run(new MainForm());
         }
     }
 }
